@@ -9,7 +9,7 @@
 		<meta charset="encoding">
 		<meta name="description" content="Tecnologia, Calidad e Ingenio."/>
 		<meta name="keywords" content="empresa web, villavicencio, colombia, gisoft"/>
-		<link rel="stylesheet" href="css/estil.css" type="text/css"/> 
+		<link rel="stylesheet" href="css/general.css" type="text/css"/> 
 
 		<!-- Para fuentes -->		
 		<link href='http://fonts.googleapis.com/css?family=Merienda+One|Bangers&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -39,26 +39,41 @@
 				<div id="registro">
 				</div>				
 
-				<div id="buscar">
-					<form>
-						<input type="text" name="consulta">
-						<input type="button" name="Buscar">Buscar</input>
-					</form>
-
+				<div id="buscasitio">
+					<form id="searchform">
+					   <input type="text" placeholder="Sitio a buscar..." required>
+					   <button type="submit">Buscar</button>
+					</form> 
 				</div>
 
 			</div> 		  
 		</div>
 
-      	<div id="wrap">     
-
-
-
-
-
-      		
-        </div>
-
+      <div id="wrap">     
+           <div id="principal">                       
+              <div class="flexslider">
+                <ul class="slides">
+                  <li>
+                    <img id="imagenes" src="imagenes/nueva4.jpg"/>
+                      <hgroup>
+						<h2>AUDITORIA DE <br> SISTEMAS</h2>
+						<p class="slider">Diagnosticamos y desarrollamos soluciones en busca de la calidad de los procesos de administración de la información en su empresa</p>
+                      </hgroup>
+                  </li>
+                  <li>
+                    <img id="imagenes" src="imagenes/nueva1.jpg"/>
+                      <hgroup><h2>DESARROLLO<br>MOVIL</h2></hgroup>					
+                  </li>
+                  <li>
+                    <img id="imagenes" src="imagenes/nueva2.jpg" />
+                      <hgroup><h2>DISEÑO WEB</h2></hgroup>					
+                  </li>
+                </ul>
+              </div>             
+           </div>
+		   
+		</div>  
+    
 		<div id="footer">
 		
 		</div>
