@@ -1,6 +1,145 @@
-#logo img{
+#wrap_index{
+	
+	float:inherit;
+	width:950px;
+	height:1300px;
+	margin: 0 auto;
+	margin-top: 30px;
+ 	border: 1px solid;  
 
+	}
+
+
+/*parte del slider*/
+
+
+
+#principal {
+	margin-top: 20px;
+	margin-bottom: 100px;
+	background-color:white; 
+	height:20%;
 	width: 100%;
-	height: 100%;
+	box-shadow: 0px 25px 30px #888888;		
+	/* padding: 0px 0px 0px 20px; */
+	opacity: 10;
+}
+
+#imagenes{	
+	float:right;	
+	background-color:blue; 	
+	width:1100px;
+	height:400px;	
 
 }
+
+h2{
+	font-family: 'Merienda One', sans-serif;
+	font-size: 35px;
+	color:#0B0B61;
+	margin-left: 60px;
+	text-shadow: -1px 2px 5px #0B0B3B;	
+}
+p.slider{
+	margin-left: 60px;
+	width:300px;
+	height:100px;
+	font-family: 'Merienda One', sans-serif;
+	font-size: 16x;	
+	color:#0A0A2A;
+	/* border: 1px solid; */
+
+}
+
+
+
+/*parte de secundaria, navegacion */
+
+
+#secundaria{
+	float: left;
+	margin-top: 50px;	
+	height:800px;
+	width: 950px;
+	border: 1px solid; 
+}
+
+/*#contenido{	
+	float:left;
+	height:420px;	
+	width:100%;	
+	margin-top: 60px;
+	border-top:1px solid #A4A4A4;	
+	border-bottom:1px solid #A4A4A4;	
+}*/
+
+
+#sitios{
+	float:left;
+	width:290px;
+	height:250px;
+	margin-top:20px;
+	margin-left:20px;
+	margin-bottom: 30px;
+	/* border:1px solid black;	
+	box-shadow: 0px 0px 10px #888888;
+	-moz-box-shadow: 0px 0px 10px #888888;
+	-o-box-shadow: 0px 0px 10px #888888;
+	opacity: 50;*/
+	//background: white;
+	//border: 1px solid;
+	
+}
+
+h3.titulo{
+
+	color: green;
+	margin:5px;
+	font-size: 30px;
+
+}
+h2.titulo_medio{
+
+	color: orange;
+	margin-top:180px;
+	
+}
+
+img.art_index{
+
+	width:100%;
+	height:80%;
+	margin:0px;
+	border: 1px solid;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
