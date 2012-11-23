@@ -35,7 +35,7 @@
 	margin: 0 auto;
 	margin-top: 30px;
  	border: 1px solid;  
-
+	background:#FFFFFF;
 	}
 
 body{
@@ -43,7 +43,7 @@ body{
 	margin: -1px -1px -1px -1px;	
 	/* background-color:#F2F2F2; */
 	
-	background:#F2F2F2;
+	background:#F8F8F8;
 }
 
 
@@ -225,19 +225,28 @@ p.slider{
 	
 	}
 
-#footer ul li {
+
+#footer .marquito{   /* estructura interna del header */
+	/* background-color:white; */
+	float:inherit;
+	width:950px;	
+	margin: 0 auto;		
+
+}
+
+.pie{
+	width:31%;	
 	display:block;
-	float:right;
-	position:relative;
-	list-style:none;
-	padding:5px;
+	float:left;
+	padding:0px;
 	color:#FFFFFF;
 	font-weight:bold;
-	font-size:15px;
-	margin:0px;	
+	font-size:13px;
+	margin:10px;	
 	font-family:ubuntuRegular;	
 	text-shadow: -1px 2px 5px #0B0B3B;	
-	font-family: 'Merienda One', sans-serif; 
+	border: 1px solid;
+	
 }
 
 
