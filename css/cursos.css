@@ -1,0 +1,197 @@
+#contenido a{
+	font-family: Tempus Sans ITC, Verdana;
+	text-decoration:none;
+}
+
+aside {
+    cursor: pointer;
+    height: 32px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 4px;
+    transition: all .3s linear;
+    width: 114px;
+}
+
+aside:hover {
+    transform: rotate(-5deg);
+    -webkit-transform: rotate(-5deg);
+}
+
+/*body {
+	background:url("../img/fondo_gris.jpg"), lightblue;
+
+}*/
+
+img#alita{
+	padding:3px;
+	display: inline;
+	float: left;
+}
+
+img#logohtml{
+	display: block;
+	margin: auto;
+	margin-top:20px;
+}
+
+img.foto{
+	border-radius: 15px;
+	margin:0;
+}
+
+img.foto:hover{
+	transform:scale(1.09);
+	-webkit-transform:scale(1.09);
+}
+
+img.acordeon{
+	padding:3px;
+}
+
+img.curso:hover{
+	transform:scale(1.5);
+	-webkit-transform:scale(1.5);
+}
+
+div img#cc{
+	display:inline;
+	margin:0 auto;
+	padding:0;
+	float:left;
+}
+
+div.pie h6{
+
+	color: #444;
+	font-family: "MuseoSans300";
+	font-size: 14px;
+	text-shadow: 0 1px 0 white;
+	float:left;
+	
+	display: inline-block;
+	margin: 0 auto;
+}
+
+div.pie{
+	display:block;
+	margin: 10px auto;
+	height:20px;
+	width:150px;
+}
+
+p.redes {
+    display: inline-block;
+    margin: 6px 0 0 6px;
+    vertical-align: top;
+}
+
+section.acordeon{
+	
+	background: rgb(0,0,7); /* Old browsers */
+	background: -moz-linear-gradient(45deg, rgba(0,0,7,1) 0%, rgba(5,4,51,1) 52%, rgba(0,2,12,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(0,0,7,1)), color-stop(52%,rgba(5,4,51,1)), color-stop(100%,rgba(0,2,12,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg, rgba(0,0,7,1) 0%,rgba(5,4,51,1) 52%,rgba(0,2,12,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg, rgba(0,0,7,1) 0%,rgba(5,4,51,1) 52%,rgba(0,2,12,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg, rgba(0,0,7,1) 0%,rgba(5,4,51,1) 52%,rgba(0,2,12,1) 100%); /* IE10+ */
+	background: linear-gradient(45deg, rgba(0,0,7,1) 0%,rgba(5,4,51,1) 52%,rgba(0,2,12,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000007', endColorstr='#00020c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */			
+	
+	border-radius: 12px;
+	box-shadow: 2px 0 4px rgba(0,0,0,0.4);
+	padding: 10px 10px 10px 10px;  
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 70px;
+}
+
+section.acordeon article{
+	background: #848484;
+	border-radius: 6px;  
+    color: #333;    
+    height: 40px;  
+    margin: 0 0 10px 0;    
+    padding: 0px 20px;
+    width: 350px;
+	overflow: hidden;
+	margin: 10px auto;
+}
+
+section.acordeon article h1{
+	color: #ddd;
+    font-size: 20px;  
+    font-weight: bold;  
+    margin: 0;  
+    padding: 10px; 
+    text-align: center;
+}
+
+section.acordeon article h1#titlegisoft{
+    display:block;
+    float:left;
+	margin-top:7px; 
+   	padding: 0px;
+}
+
+section.acordeon article h1 a{
+	color: inherit;  
+    outline: 0 none;  
+    text-decoration: none;  
+    width: 100%; 
+}
+
+section.acordeon article:target.gisoft{  
+    height: 17em;
+    /*background-image:url("../img/logogisoft_hover.png") no-repeat;*/
+} 
+
+section.acordeon article:target.cursos{  
+    height: 14em;
+}
+
+section.acordeon article:target.conos{  
+    height: 27em;
+} 
+
+section.acordeon article:target.redes{  
+    height: 10em;
+} 
+
+section.acordeon article:target {  
+    height: 27em;  
+    background-color: #fff;
+}
+
+section.acordeon article:target h1 {  
+    color: #333;  
+    font-size: 1.6em; 
+}
+
+section.acordeon article,  
+section.acordeon article h1 {  
+    transition: all 1s ease;  
+    -webkit-transition: all 1s ease;  
+}
+
+
+#conos, #cursos p{
+	font-family:ubuntuRegular;
+}
+
+
+
+
+#somos{
+	font-size: 12px;
+	font-family: Lucida Calligraphy, Helvetica, sans-serif;
+	width:95%;
+	margin:10px 5px 10px 5px;
+	text-align:justify;
+	float:left;
+}
+
+span.grupo{
+	display: block;
+	margin: 0 auto;
+}
+

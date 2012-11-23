@@ -1,0 +1,257 @@
+/* fuentes */
+
+@font-face{
+	font-family:ubuntuRegular;
+	src:url(fuentes/Ubuntu-R.ttf) format("truetype")
+	
+}
+
+@font-face{
+	font-family:ubuntuBold;
+	src:url(fuentes/Ubuntu-B.ttf) format("truetype")
+	
+}
+@font-face{
+	font-family:ubuntuItalic;
+	src:url(fuentes/Ubuntu-I.ttf) format("truetype")
+	
+}
+@font-face{
+	font-family:ubuntuBoldItalic;
+	src:url(fuentes/Ubuntu-BI.ttf) format("truetype")
+	
+}
+
+/*ESTILOS BASICOS*/6{font-family: ubuntuRegular;}
+tipo{
+	position:absolute;
+	transform:translate(100px, 10px);
+	-webkit-transform:translate(100px, 10px);
+}
+
+/*#contenido{
+	width:100%;
+	border 2px solid white;
+	
+	background:rgba(255,255,255,0.8);
+	box-shadow:0px 0px 10px white;
+	-webkit-box-shadow:0px 0px 10px white;
+	-moz-box-shadow:0px 0px 10px white;
+	-o-box-shadow:0px 0px 10px white;
+}*/
+
+h6{
+color:white;
+font-size: 12px;
+}
+
+/*Menu de Navegacion*/
+
+nav{
+	float:left;	
+	margin-top:40px;	
+	margin-left:40px;	
+	margin-bottom:30px;	
+	height:30px;	
+	width:560px;		
+	font-family:"Times New Roman"; 
+}
+
+nav ul{
+	clear:both;
+	/*float:left;*/
+	list-style:none;
+	margin:0;	
+}
+
+nav ul li {
+	display:block;
+	float:left;
+	position:relative;
+	list-style:none;
+	margin-left:0px;
+	
+	
+}
+nav ul li a:hover {
+	font-size:17px;	
+}
+
+nav ul li a{
+	padding:15px;
+	text-decoration:none;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:15px;
+	margin:0px;	
+	font-family:ubuntuRegular;
+	/* font-family: 'Merienda One', sans-serif; */
+}
+
+
+
+/*Maquetacion Principal*/
+
+
+
+body{
+	/* text-align:center; */
+	margin:0px;
+	background:#F2F2F2;
+}
+#principal{
+	text-align:left;
+	margin:auto;
+	width:950px;	
+	height:100%;	
+	position:relative;
+
+}
+
+
+
+/* #cajaheader{
+	width:100%;
+	/* height:100px; */
+/*	
+	position:absolute;
+} */
+#marco{   /* estructura interna del header */
+	/* background-color:white; */
+	float:inherit;
+	width:950px;	
+	height:100%;
+	margin: 0 auto;
+}
+
+header{
+	/* margin-top: 0px;		 */
+	height: 90px;
+	background: rgb(0,0,7); /* Old browsers */
+	background: -moz-linear-gradient(45deg, rgba(0,0,7,1) 0%, rgba(5,4,51,1) 52%, rgba(0,2,12,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(0,0,7,1)), color-stop(52%,rgba(5,4,51,1)), color-stop(100%,rgba(0,2,12,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg, rgba(0,0,7,1) 0%,rgba(5,4,51,1) 52%,rgba(0,2,12,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg, rgba(0,0,7,1) 0%,rgba(5,4,51,1) 52%,rgba(0,2,12,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg, rgba(0,0,7,1) 0%,rgba(5,4,51,1) 52%,rgba(0,2,12,1) 100%); /* IE10+ */
+	background: linear-gradient(45deg, rgba(0,0,7,1) 0%,rgba(5,4,51,1) 52%,rgba(0,2,12,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#000007', endColorstr='#00020c',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */	
+	
+	box-shadow: 10px 10px 55px 5px #888888;	
+	-moz-box-shadow: 10px 10px 55px 5px #888888;	
+	-webkit-box-shadow: 10px 10px 55px 5px #888888;	
+	-o-box-shadow: 10px 10px 55px 5px #888888;	
+}
+
+#logo{
+	float:left;
+	margin:8px 5x;		
+ 	width:336px; height:80px;
+}
+
+/*-------  Footer   ---------*/
+/*-------------------------------------------------------------------------------------*/
+
+footer {	
+	float:inherit;
+	margin-top:50px;
+	height:230px;
+	width: 100%;
+	background: rgb(2,0,33);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAyMDAyMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQzJSIgc3RvcC1jb2xvcj0iIzAxMDAwZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	color: blue;
+	background: -moz-linear-gradient(top,  rgba(2,0,33,1) 0%, rgba(1,0,15,1) 43%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(2,0,33,1)), color-stop(43%,rgba(1,0,15,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(2,0,33,1) 0%,rgba(1,0,15,1) 43%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(2,0,33,1) 0%,rgba(1,0,15,1) 43%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(2,0,33,1) 0%,rgba(1,0,15,1) 43%,rgba(0,0,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(2,0,33,1) 0%,rgba(1,0,15,1) 43%,rgba(0,0,0,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020021', endColorstr='#000000',GradientType=0 ); /* IE6-8 */
+ 	border: 2px solid black;
+	
+	box-shadow: 10px 10px 55px 5px #888888;	
+	-moz-box-shadow: 10px 10px 55px 5px #888888;	
+	-webkit-box-shadow: 10px 10px 55px 5px #888888;	
+	-o-box-shadow: 10px 10px 55px 5px #888888;	
+	
+	}
+
+
+#foot_marco{
+ 	float:center;
+	width:950px;
+	height:230px;	
+	margin: 0px auto;
+	
+}
+
+#foot_marco{
+ 	float:center;
+	width:950px;
+	height:230px;	
+	margin: 0px auto;
+	padding: 0px auto;
+
+}
+#foot_web{
+	float:left;
+	width:220px;
+	height:200px;	
+	margin-left: 5px;
+	margin-top:5px;
+	/* padding-top:5px; */
+ 	/* border: 1px solid;	 */
+}
+#foot_cont{
+	float:left;
+	width:270px;
+	height:200px;	
+	margin-top:5px;
+	font-family:ubuntuRegular;
+	/* padding-top:5px; */
+	/* border: 1px solid;  */
+	
+}
+
+
+#foot_tecnologias{
+	float:left;
+	width:390px;
+	height:200px; 	
+ 	margin-left:30px;	
+	margin-top:5px;
+	/* padding-top:5px; */
+  	/* border: 1px solid;  */ 
+	
+	
+}
+
+p.titulo_foot{	
+	float:lefth;
+	color:#BDBDBD;
+	font-family:ubuntuBold;
+	/* margin-top: -3px; */
+}
+
+
+p.info_foot{
+	float:lefth;
+	color:#848484;
+	font-size: 14px;
+	font-family:ubuntuRegular;
+	/* font-family: 'arial'; */
+	/* margin-top: -8px; */
+
+}
+
+
+img.imagen{
+	opacity: 0.5;           /* safari, chrome, opera */
+	filter: alpha(opacity=0.5);
+	-moz-opacity:0.5;
+
+}
+/*-------------------------------------------------------------------------------------*/
+
+
+
+

@@ -1,0 +1,542 @@
+/* fuentes */
+
+@font-face{
+	font-family:ubuntuRegular;
+	src:url(fuentes/Ubuntu-R.ttf) format("truetype")
+	
+}
+
+@font-face{
+	font-family:ubuntuBold;
+	src:url(fuentes/Ubuntu-B.ttf) format("truetype")
+	
+}
+@font-face{
+	font-family:ubuntuItalic;
+	src:url(fuentes/Ubuntu-I.ttf) format("truetype")
+	
+}
+@font-face{
+	font-family:ubuntuBoldItalic;
+	src:url(fuentes/Ubuntu-BI.ttf) format("truetype")
+	
+}
+
+
+
+
+/* Etiquetas Generales */
+
+#wrap{
+	
+	float:inherit;
+	width:950px;
+	height:800px;
+	margin: 0 auto;
+	margin-top: 30px;
+ 	/* border: 1px solid;   */
+
+	}
+#wrap_nosotros{
+	
+	float:inherit;
+	width:950px;
+	height:1000px;	
+	margin: 0 auto;
+ 	/* border: 1px solid black; */
+
+}
+
+
+#wrap_contactenos{
+	
+	float:inherit;
+	width:950px;
+	height:600px;	
+	margin: 0 auto;
+ 	/* border: 1px solid black; */
+
+}
+
+#wrap_servicios{
+	
+	float:inherit;
+	width:950px;
+	height:2000px;	
+	margin: 0 auto;
+ 	/* border: 1px solid black; */
+
+}
+
+body{
+	float:inherit;
+	margin: -1px -1px -1px -1px;	
+	/* background-color:#F2F2F2; */
+	
+	background:#F2F2F2;
+}
+
+
+/* Cabecera */
+
+header{
+	/* margin-top: 0px;		 */
+	height: 90px;
+	background: #b4e391; /* Old browsers */
+	background: -moz-linear-gradient(45deg, #b4e391 0%, #61c419 50%, #b4e391 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#b4e391), color-stop(50%,#61c419), color-stop(100%,#b4e391)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(45deg, #b4e391 0%,#61c419 50%,#b4e391 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(45deg, #b4e391 0%,#61c419 50%,#b4e391 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(45deg, #b4e391 0%,#61c419 50%,#b4e391 100%); /* IE10+ */
+	background: linear-gradient(45deg, #b4e391 0%,#61c419 50%,#b4e391 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+	
+	box-shadow: 10px 10px 55px 5px #888888;	
+	-moz-box-shadow: 10px 10px 55px 5px #888888;	
+	-webkit-box-shadow: 10px 10px 55px 5px #888888;	
+	-o-box-shadow: 10px 10px 55px 5px #888888;	
+}
+
+#marco{   /* estructura interna del header */
+	/* background-color:white; */
+	float:inherit;
+	width:950px;	
+	margin: 0 auto;	
+
+}
+
+#logo{
+	float:left;
+	margin:8px 5px;		
+ 	width:336px; height:80px;
+}
+
+nav{
+	float:left;
+	//background-color: green;
+	margin-top:40px;	
+	margin-left:10px;	
+	margin-bottom:30px;	
+	height:30px;	
+	width:560px;		
+	font-family:"Times New Roman"; 
+}
+
+nav ul{
+	clear:both;
+	/*float:left;*/
+	list-style:none;
+	margin:0;	
+}
+
+nav ul li {
+	display:block;
+	float:left;
+	position:relative;
+	list-style:none;
+	margin-left:0px;
+	
+	
+}
+
+nav ul li a:hover {
+	font-size:20px;	
+}
+
+nav ul li a{
+	padding:15px;
+	text-decoration:none;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:15px;
+	margin:0px;	
+	font-family:ubuntuRegular;
+	/* font-family: 'Merienda One', sans-serif; */
+}
+
+
+
+
+/* Parte principal (el slider) */
+
+#principal {
+	margin-top: 20px;
+	background-color:white; 
+	height:20%
+	width: 100%;
+	box-shadow: 0px 25px 30px #888888;		
+	/* padding: 0px 0px 0px 20px; */
+	opacity: 10;
+}
+
+#imagenes{	
+	float:right;	
+	background-color:blue; 	
+	width:500px;
+	height:300px;	
+
+}
+
+h2{
+	font-family: 'Merienda One', sans-serif;
+	font-size: 35px;
+	color:#0B0B61;
+	margin-left: 60px;
+	text-shadow: -1px 2px 5px #0B0B3B;	
+}
+p.slider{
+	margin-left: 60px;
+	width:300px;
+	height:100px;
+	font-family: 'Merienda One', sans-serif;
+	font-size: 16x;	
+	color:#0A0A2A;
+	/* border: 1px solid; */
+
+}
+
+
+
+/* Parte Secundaria (Los articulos) */
+
+#contenido{	
+	float:left;
+	height:420px;	
+	width:100%;	
+	margin-top: 60px;
+	border-top:1px solid #A4A4A4;	
+	border-bottom:1px solid #A4A4A4;	
+}
+
+
+article{
+	float:left;
+	width:290px;
+	height:90%;
+	margin-top:20px;
+	margin-left:20px;
+	/* border:1px solid black;	 */
+	box-shadow: 0px 0px 10px #888888;
+	-moz-box-shadow: 0px 0px 10px #888888;
+	-o-box-shadow: 0px 0px 10px #888888;
+	opacity: 50;
+	background: white;
+	
+}
+
+article:hover{
+	float:left;
+	width:290px;
+	height:90%;
+	margin-top:10px;
+	margin-left:20px;
+	/* border:1px solid black;	 */
+	
+	opacity:1;
+	transform:scale(1.03,1.03);
+	-webkit-transform:scale(1.03,1.03);
+	-moz-transform:scale(1.03,1.03);
+	-o-transform:scale(1.03,1.03);	
+	
+	background: white;
+	 box-shadow:0px 0px 25px black;
+	-webkit-box-shadow:0px 0px 25px black;
+	-moz-box-shadow:0px 0px 25px black;
+	-o-box-shadow:0px 0px 25px black;
+	
+}
+
+h3.titulo{
+	margin: 30px 5px 0px 5px;
+	float:center;
+	font-size:20px;
+	font-family:ubuntuRegular;
+	text-shadow: 5px 2px 5px #888888;	
+	color: #0B0B3B;;
+}
+
+
+#img_cont{
+	float:left;
+	width:480px;
+	height:280px;	
+	/*margin:0px 20px 20px 80px;	*/
+	margin-left:80px;
+	margin-top: 40px;
+	box-shadow: 10px 10px 10px #888888;			
+	opacity: 10;
+	}
+
+
+article img.art_index{
+
+	float:center;
+	margin-left:50px;
+	/* border:1px solid black;	 */
+
+}
+
+p.cont_tex{
+	margin:10px 10px 10px 10px;
+	/* text-align:center; */
+	font-family:ubuntuRegular;
+	font-size:14px;
+	width:250px;
+	height:100px;
+	color: #0A0A2A;
+	
+}
+
+
+/*-------  Footer   ---------*/
+
+footer {	
+	float:inherit;
+	margin-top:50px;
+	height:230px;
+	width: 100%;
+	background: rgb(2,0,33);
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAyMDAyMSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjQzJSIgc3RvcC1jb2xvcj0iIzAxMDAwZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMwMDAwMDAiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	color: blue;
+	background: -moz-linear-gradient(top,  rgba(2,0,33,1) 0%, rgba(1,0,15,1) 43%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(2,0,33,1)), color-stop(43%,rgba(1,0,15,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(2,0,33,1) 0%,rgba(1,0,15,1) 43%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(2,0,33,1) 0%,rgba(1,0,15,1) 43%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(2,0,33,1) 0%,rgba(1,0,15,1) 43%,rgba(0,0,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(2,0,33,1) 0%,rgba(1,0,15,1) 43%,rgba(0,0,0,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#020021', endColorstr='#000000',GradientType=0 ); /* IE6-8 */
+ 	border: 2px solid black;
+	
+	box-shadow: 10px 10px 55px 5px #888888;	
+	-moz-box-shadow: 10px 10px 55px 5px #888888;	
+	-webkit-box-shadow: 10px 10px 55px 5px #888888;	
+	-o-box-shadow: 10px 10px 55px 5px #888888;	
+	
+	}
+
+
+#foot_marco{
+ 	float:center;
+	width:950px;
+	height:230px;	
+	margin: 0px auto;
+	
+}
+
+#foot_marco{
+ 	float:center;
+	width:950px;
+	height:230px;	
+	margin: 0px auto;
+	padding: 0px auto;
+
+}
+#foot_web{
+	float:left;
+	width:220px;
+	height:200px;	
+	margin-left: 5px;
+	margin-top:5px;
+	/* padding-top:5px; */
+ 	/* border: 1px solid;	 */
+}
+#foot_cont{
+	float:left;
+	width:270px;
+	height:200px;	
+	margin-top:5px;
+	/* padding-top:5px; */
+	/* border: 1px solid;  */
+	
+}
+
+
+#foot_tecnologias{
+	float:left;
+	width:390px;
+	height:200px; 	
+ 	margin-left:30px;	
+	margin-top:5px;
+	/* padding-top:5px; */
+  	/* border: 1px solid;  */ 
+	
+	
+}
+
+p.titulo_foot{	
+	float:lefth;
+	color:#BDBDBD;
+	font-family:ubuntuBold;
+	/* margin-top: -3px; */
+}
+
+
+p.info_foot{
+	float:lefth;
+	color:#848484;
+	font-size: 14px;
+	font-family:ubuntuRegular;
+	/* font-family: 'arial'; */
+	/* margin-top: -8px; */
+
+}
+
+
+img.imagen{
+	opacity: 0.5;           /* safari, chrome, opera */
+	filter: alpha(opacity=0.5);
+	-moz-opacity:0.5;
+
+}
+
+/* segunda face del desarrollo */
+
+div.contenido{
+	text-align:left;			
+	margin: 0px auto;
+	position:relative;
+	border-bottom:1px solid #A4A4A4;	
+	padding: 5px; 
+}
+
+
+#columna1{
+
+	float:left;	
+	width:660px;
+	height:100%;
+	/* margin-left: 20px; */
+	margin-top: -8px;
+	padding: 20px 0px 0px 25px;
+	background: white;
+	border: 1px solid white;
+	box-shadow: 0px 0px 10px black;		
+	-webkit-box-shadow: 0px 0px 10px black;
+	-moz-box-shadow: 0px 0px 10px black;
+	-o-box-shadow: 0px 0px 10px black;
+	opacity: 5;	
+	
+   
+}
+
+#columna2{
+	float:left;
+	width:220px;
+	height:100%;
+	margin-left:10px;
+	margin-top:-5px;
+	/* background: white; */
+}
+
+
+#img_principal img{
+	float:center;
+	margin-left:180px;
+	margin-top: 20px;
+	width:250px;
+	height:150px;	
+	border: 5px solid;
+	}
+
+
+#img_cont img{
+	margin-left:5px;
+	margin-top: 5px;
+	width:475px;
+	height:275px;	
+	border: 1px solid;
+	}
+
+
+
+.op_admin{
+	margin: 5px 5px 5px 5px;
+	float:center;
+	font-size:18px;
+	font-family:ubuntuRegular;
+	text-shadow: -1px 2px 5px #888888;	
+	color: #0B0B3B;;
+	
+	}
+
+
+
+p.slogan_text
+{
+	margin:10px 10px 10px 10px;
+	float: center;
+	/* text-align:center; */
+	font-family: 'Merienda One', sans-serif;
+	font-size:14px;
+	width:880px;
+	height:40px;
+	color: #0A0A2A;
+	
+		
+}
+
+p.section_tex
+{	
+	float: left;
+	width:580px;
+	height:50px;
+	font-family:ubuntuRegular;
+	font-size:16px;
+	text-align : justify;
+	margin:30px 5px 50px 5px;
+	color: #0A0A2A;
+	
+		
+}
+/*----------------------- aside ----------------*/
+aside.asidecontenido{
+	float:left;
+	width:230px;
+	height:250px;
+	margin-left:1px;
+	margin-top:10px;
+	border: 1px solid #A4A4A4;
+	background: #E6E6E6;
+	padding: 10px;
+    
+}
+
+
+p.aside_tex
+{
+	margin:5px 5px 5px 5px;
+	float: center;
+	/* text-align:center; */
+	font-family:ubuntuRegular;
+	font-size:15px;
+	width:180px;
+	height:100px;
+	color: #0A0A2A;
+	
+	
+	
+}
+h3.asidecontenido{
+	margin: 5px 5px 5px 5px;
+	float:center;
+	font-size:18px;
+	font-family:ubuntuRegular;
+	text-shadow: -1px 2px 5px #888888;	
+	color: #0B0B3B;;
+	
+
+}
+
+
+/*tabla contactenos*/
+
+table p{
+font-family:ubuntuRegular;
+font-size:16px;
+color:rgba(105, 105, 105,2);
+}
+
+
+
+
