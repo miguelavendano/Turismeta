@@ -34,14 +34,14 @@
 			<div id="header"> 
 			<div id="marco"> 
 	 			<h1 id="logo">			   
-				   <img src="imagenes/logo.png" title="Gisoft Colombia"/>
+				   <img src="imagenes/logo.png" title="TURISMETA"/>
 				</h1>    
 				<div id="registro">
 				  <ul>				    
 				    <li><a href="index.html" title="">Inicio</a></li>
-				    <li><a href="registro.html" title="">Ingresar</a></li>
-					<li><a href="registro.html" title="">Registrarse</a></li>
-				  </ul>                               
+				    <li><a href="registro.html" title="">Ingresar/Registrarse</a></li>
+					<li><a href="buscar.html" title="">Buscar</a></li>
+				  </ul>                                                            
 				</div>				
 
 				<div id="buscasitio">
@@ -62,19 +62,28 @@
     				<div class="tipo-ingreso"><h3>Completa el Formulario de Registro</h3></div>
     			    <div class="campos">
 				        <div class="form-label">
-				            <label for="id_username">Username <em>*</em></label>
+				            <label for="id_username">Nombres <em>*</em></label>
 				        </div>
 				        <div class="form-field">					        
-				            <input id="id_username" type="text" class="required" name="username" maxlength="30" />
+				            <input id="id_username" type="text" class="required" name="username" maxlength="30" required/>
 				        </div>
 				    </div>
-					    
+
+    			    <div class="campos">
+				        <div class="form-label">
+				            <label for="id_username">Apellidos <em>*</em></label>
+				        </div>
+				        <div class="form-field">					        
+				            <input id="id_username" type="text" class="required" name="username" maxlength="30" required/>
+				        </div>
+				    </div>
+
 				    <div class="campos">
 				        <div class="form-label">
 				            <label for="id_email">Email address <em>*</em></label>
 				        </div>
 					    <div class="form-field">					            
-					         <input id="id_email" type="text" class="required" name="email" maxlength="75" />
+					         <input id="id_email" type="text" class="required" name="email" maxlength="75" required/>
 				        </div>
 				    </div>
 					    
@@ -83,7 +92,7 @@
 				            <label for="id_password1">Password <em>*</em></label>
 				        </div>
 				        <div class="form-field">					            
-				            <input id="id_password1" type="password" class="required" name="password1" />
+				            <input id="id_password1" type="password" class="required" name="password1" required/>
 				        </div>
 					</div>
 					   
@@ -92,7 +101,7 @@
 				            <label for="id_password2">Confirmar Password<em>*</em></label>					            
 				        </div>
 				        <div class="form-field">					            
-				            <input id="id_password2" type="password" class="required" name="password2" />
+				            <input id="id_password2" type="password" class="required" name="password2" required/>
 				        </div>
 				    </div>
 					            
@@ -115,13 +124,14 @@
 	   	   	</div>
 
 	   	   	<div class="module-body">
+	   			<form action="/ingresar/">
 	   	   		<div class="tipo-ingreso"><h3>Inicia Sesion</h3></div>
 				<div class="campos">					
 				    <div class="form-label">
 				        <label for="id_email">Email address <em>*</em></label>
 				    </div>
 				    <div class="form-field">					            
-				        <input id="id_email" type="text" class="required" name="email" maxlength="75" />
+				        <input id="id_email" type="text" class="required" name="email" maxlength="75" required/>
 				    </div>
 				</div>
 					    
@@ -130,7 +140,7 @@
 				        <label for="id_password1">Password <em>*</em></label>
 				    </div>
 				    <div class="form-field">					            
-				        <input id="id_password1" type="password" class="required" name="password1" />
+				        <input id="id_password1" type="password" class="required" name="password1" required/>
 				    </div>
 				</div>
 
@@ -139,6 +149,7 @@
 				    	 <input type="submit" value="Entrar" id="submit"/>		
 				    	</div>
 				   </div>	   	   		
+				 </form>  
 	   	   	</div>
 	   	  </div> <!--cierra div class="contenido"-->
 		</div>  

@@ -47,18 +47,9 @@ body{
 
 /* Cabecera */
 
-#header{
-	/* margin-top: 0px;		 */
+#header{	
 	height: 90px;
-	background: #b4e391; /* Old browsers */
-	background: -moz-linear-gradient(45deg, #b4e391 0%, #61c419 50%, #b4e391 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,#b4e391), color-stop(50%,#61c419), color-stop(100%,#b4e391)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(45deg, #b4e391 0%,#61c419 50%,#b4e391 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(45deg, #b4e391 0%,#61c419 50%,#b4e391 100%); /* Opera 11.10+ */
-	background: -ms-linear-gradient(45deg, #b4e391 0%,#61c419 50%,#b4e391 100%); /* IE10+ */
-	background: linear-gradient(45deg, #b4e391 0%,#61c419 50%,#b4e391 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b4e391', endColorstr='#b4e391',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-	
+	background:#71E451;	
 	box-shadow: 10px 10px 55px 5px #888888;	
 	-moz-box-shadow: 10px 10px 55px 5px #888888;	
 	-webkit-box-shadow: 10px 10px 55px 5px #888888;	

@@ -4,12 +4,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
 
 	<head>	
-		<title>GiSoft Colombia</title>
+		<title>TURISMETA</title>
 		<!-- <meta charset="utf-8"/> -->
 		<meta charset="encoding">
 		<meta name="description" content="Tecnologia, Calidad e Ingenio."/>
 		<meta name="keywords" content="empresa web, villavicencio, colombia, gisoft"/>
 		<link rel="stylesheet" href="css/general.css" type="text/css"/> 
+		<link rel="stylesheet" href="css/busqueda.css" type="text/css"/> 
 
 		<!-- Para fuentes -->		
 		<link href='http://fonts.googleapis.com/css?family=Merienda+One|Bangers&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
@@ -44,20 +45,61 @@
 				  </ul>                                                            
 				</div>				
 
-				<div id="buscasitio">
-					<form class="form-wrapper">
-						<input type="text" id="search" placeholder="Sitio a Buscar..." required>
-						<input type="submit" value="go" id="submit">
-					</form>
-				</div>
 			</div> 		  
 		</div>
+		
+      	<div id="wrap_busqueda">     
+          
+<!--Desde aca comienza la parte del index de turismeta-->
+           	<h2 class="titulo_medio">Que lugar estas buscando ?</h2>
 
-      <div id="wrap">     
-           
+   				<div id="buscasitio">
+ 	         		<form class="form-wrapper">
+					  <label>Sitio:</labe>
+					  <input type="text" id="search" placeholder="Sitio a Buscar..." required>
+					  <label>Departamento: (opcional)</label>
+					  <input type="text" id="search" placeholder="Departamento en el que se encuentra...">
+					  <label>Sitio Cercano: (opcional)</label>
+					  <input type="text" id="search" placeholder="Digite algun lugar vecino...">
+					  <div id="bot">
+					  	 <input type="submit" value="go" id="submit">
+					   </div>	
+					</form>
+				</div>
+
+           	<div id="secundaria">
+				
+				<div id="sitios"> 
+					<h3 class="titulo"><span>Villavicencio</span></h3>
+					<img class="art_index" src="imagenes/villavicencio.jpg" />										 
+				</div>
+				<div id="sitios"> 
+					<h3 class="titulo"><span>Granada</span></h3>
+					<img class="art_index" src="imagenes/Granada.jpg" />										 
+				</div>
+				<div id="sitios"> 
+					<h3 class="titulo"><span>Paratebueno</span>
+					<img class="art_index" src="imagenes/paratebueno.jpeg"/>										 
+				</div>								
+				<div id="sitios"> 
+					<h3 class="titulo"><span>Puerto_Gaitan</span>
+					<img class="art_index" src="imagenes/puerto_gaitan.jpg" />										 
+				</div>
+				<div id="sitios"> 
+					<h3 class="titulo"><span>Restrepo</span></h3>
+					<img class="art_index" src="imagenes/restrepo.jpg" />										 
+				</div>
+				<div id="sitios"> 
+					<h3 class="titulo"><span>Puerto Gaitán</span>
+					<img class="art_index" src="imagenes/puerto_lopez.jpg" />										 
+				</div>							
+			
+           	</div>
 		   
 		</div>  
-    
+
+<!--Hasta aca termina turismeta-->
+
 		<div id="footer">
 			<div class="marquito">
 			  <div class="pie">		    
@@ -70,7 +112,7 @@
 
 			  <div class="pie">
 			  	<ul>Realizado por:	    
-					<li>Julian Varela & Miguel AvendaÃ±o</li>
+					<li>Julian Varela & Miguel Avendaño</li>
 				</ul>
 			  </div>		  
 
