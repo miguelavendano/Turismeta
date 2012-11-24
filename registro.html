@@ -28,7 +28,21 @@
 			});
 		  });
 		</script>
-					
+
+	 <script type="text/javascript">
+	 	function validar_formulario(){	 		
+	 		if(validar_cad(document.formi_reg.minombre.value)==false||validar_cad(document.formi_reg.miapellido.value)==false)
+	 			alert("Digite bien los campos!!!");	
+	 	}
+
+		function validar_cad(var cadena){		  
+		  var patron = /^[a-zA-Z]+$/;	  
+		  if(!cadena.search(patron))
+			document.formi.submit();	
+		  else{return false;}
+	    }  	
+ 	</script>			
+
 	</head>
 	<body>    
 			<div id="header"> 
@@ -58,14 +72,14 @@
 		 <div class="module-head"><h2>Para Acceder a TURISMETA</h2></div>
 		  <div class="contenido">
 			 <div class="module-body">
-			    <form action="/registration/" method="post">
+			    <form action="/registration/" method="post" name="formi_reg">
     				<div class="tipo-ingreso"><h3>Completa el Formulario de Registro</h3></div>
     			    <div class="campos">
 				        <div class="form-label">
 				            <label for="id_username">Nombres <em>*</em></label>
 				        </div>
 				        <div class="form-field">					        
-				            <input id="id_username" type="text" class="required" name="username" maxlength="30" required/>
+				            <input id="id_username" type="text" class="required" name="minombre" maxlength="30" required/>
 				        </div>
 				    </div>
 
@@ -74,7 +88,7 @@
 				            <label for="id_username">Apellidos <em>*</em></label>
 				        </div>
 				        <div class="form-field">					        
-				            <input id="id_username" type="text" class="required" name="username" maxlength="30" required/>
+				            <input id="id_username" type="text" class="required" name="miapellido" maxlength="30" required/>
 				        </div>
 				    </div>
 
@@ -83,7 +97,7 @@
 				            <label for="id_email">Email address <em>*</em></label>
 				        </div>
 					    <div class="form-field">					            
-					         <input id="id_email" type="text" class="required" name="email" maxlength="75" required/>
+					         <input id="id_email" type="text" class="required" name="miemail" maxlength="75" required/>
 				        </div>
 				    </div>
 					    
@@ -92,7 +106,7 @@
 				            <label for="id_password1">Password <em>*</em></label>
 				        </div>
 				        <div class="form-field">					            
-				            <input id="id_password1" type="password" class="required" name="password1" required/>
+				            <input id="id_password1" type="password" class="required" name="mipassword1" required/>
 				        </div>
 					</div>
 					   
@@ -101,7 +115,7 @@
 				            <label for="id_password2">Confirmar Password<em>*</em></label>					            
 				        </div>
 				        <div class="form-field">					            
-				            <input id="id_password2" type="password" class="required" name="password2" required/>
+				            <input id="id_password2" type="password" class="required" name="mipassword2" required/>
 				        </div>
 				    </div>
 					            
@@ -117,14 +131,14 @@
 				    </div>
 				    <div class="form-wrapper">
 				    	<div class="reg">	
-				    	 <input type="submit" value="Enviar" id="submit"/>		
+				    	 <input type="submit" value="Enviar" id="submit" onclick="validar_formulario"/>		
 				    	</div>
 				   </div>
 				</form>
 	   	   	</div>
 
 	   	   	<div class="module-body">
-	   			<form action="/ingresar/">
+	   			<form action="pp.html" method="post" name="formi_log">
 	   	   		<div class="tipo-ingreso"><h3>Inicia Sesion</h3></div>
 				<div class="campos">					
 				    <div class="form-label">
@@ -146,7 +160,7 @@
 
 				 <div class="form-wrapper">
 				    	<div class="reg">	
-				    	 <input type="submit" value="Entrar" id="submit"/>		
+				    	 <input type="submit" value="Entrar" id="submit" />		
 				    	</div>
 				   </div>	   	   		
 				 </form>  
