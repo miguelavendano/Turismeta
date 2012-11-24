@@ -1,7 +1,7 @@
 $(document).ready(function () {
     var emailreg = /^[a-zA-Z0-9_\.\-]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/;
     // aqui va a ir la validacion
-    $("#submit").click(function () {  
+    $(".registro").click(function () {          
     	//valida la extencion del nombre    	
     	$(".error").remove();
 

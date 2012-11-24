@@ -18,6 +18,7 @@
 		<link rel="stylesheet" href="flexslider.css" type="text/css">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
 		<script src="jquery.flexslider.js"></script>
+		<script src="js/validarformulario.js"></script>
 		
 		<!-- Slider -->
 		<script type="text/javascript" charset="utf-8">
@@ -76,19 +77,19 @@
     				<div class="tipo-ingreso"><h3>Completa el Formulario de Registro</h3></div>
     			    <div class="campos">
 				        <div class="form-label">
-				            <label for="id_username">Nombres <em>*</em></label>
+				            <label for="id_nombre">Nombres <em>*</em></label>
 				        </div>
 				        <div class="form-field">					        
-				            <input id="id_username" type="text" class="required" name="minombre" maxlength="30" required/>
+				            <input id="id_nombre" type="text" class="required" name="minombre" maxlength="30" required/>
 				        </div>
 				    </div>
 
     			    <div class="campos">
 				        <div class="form-label">
-				            <label for="id_username">Apellidos <em>*</em></label>
+				            <label for="id_apellido">Apellidos <em>*</em></label>
 				        </div>
 				        <div class="form-field">					        
-				            <input id="id_username" type="text" class="required" name="miapellido" maxlength="30" required/>
+				            <input id="id_apellido" type="text" class="required" name="miapellido" maxlength="30" />
 				        </div>
 				    </div>
 
@@ -97,7 +98,7 @@
 				            <label for="id_email">Email address <em>*</em></label>
 				        </div>
 					    <div class="form-field">					            
-					         <input id="id_email" type="text" class="required" name="miemail" maxlength="75" required/>
+					         <input id="id_email" type="text" class="required" name="miemail" maxlength="75" />
 				        </div>
 				    </div>
 					    
@@ -106,7 +107,7 @@
 				            <label for="id_password1">Password <em>*</em></label>
 				        </div>
 				        <div class="form-field">					            
-				            <input id="id_password1" type="password" class="required" name="mipassword1" required/>
+				            <input id="id_password1" type="password" class="required" name="mipassword1" />
 				        </div>
 					</div>
 					   
@@ -115,7 +116,7 @@
 				            <label for="id_password2">Confirmar Password<em>*</em></label>					            
 				        </div>
 				        <div class="form-field">					            
-				            <input id="id_password2" type="password" class="required" name="mipassword2" required/>
+				            <input id="id_password2" type="password" class="required" name="mipassword2" />
 				        </div>
 				    </div>
 					            
@@ -131,7 +132,7 @@
 				    </div>
 				    <div class="form-wrapper">
 				    	<div class="reg">	
-				    	 <input type="submit" value="Enviar" id="submit" onclick="validar_formulario"/>		
+				    	 <input type="submit" value="Enviar" id="submit" class="registro" />		
 				    	</div>
 				   </div>
 				</form>
@@ -145,7 +146,7 @@
 				        <label for="id_email">Email address <em>*</em></label>
 				    </div>
 				    <div class="form-field">					            
-				        <input id="id_email" type="text" class="required" name="email" maxlength="75" required/>
+				        <input id="id_email" type="text" class="required" name="email" maxlength="75" />
 				    </div>
 				</div>
 					    
@@ -154,7 +155,7 @@
 				        <label for="id_password1">Password <em>*</em></label>
 				    </div>
 				    <div class="form-field">					            
-				        <input id="id_password1" type="password" class="required" name="password1" required/>
+				        <input id="id_password1" type="password" class="required" name="password1" />
 				    </div>
 				</div>
 
